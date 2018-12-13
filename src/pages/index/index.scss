@@ -1,0 +1,66 @@
+.index {
+  background-color: #f1f1f1;
+}
+
+.top-box {
+  width: 100%;
+}
+
+.test-h {
+  height: 440px;
+  overflow: hidden;
+}
+
+.si-box {
+  height: 440px;
+  position: relative;
+  .image {
+    width: 750px;
+    height: 750px;
+    position: absolute;
+    left: 0;
+    top: -150px;
+  }
+  .text {
+    width: 750px;
+    height: 440px;
+  }
+  .text2 {
+    width: 710px;
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    font-size: 38px;
+    color: #fff;
+    text-align: left;
+    box-sizing: border-box;
+  }
+}
+
+.content {
+  .box {
+    width: 730px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    .title {
+      width: 510px;
+      padding: 30px 20px 20px;
+      font-size: 34px;
+    }
+    .img {
+      display: block;
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      img {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
