@@ -9,5 +9,8 @@ export default {
   },
   getDetail(id, cb) {
     return request.get(`${baseUrl}/api/4/news/${id}`).then(cb)
+  },
+  beforeData(date, cb) {
+    return request.get(`${baseUrl}/api/4/news/before/${date}`).then(cb)
   }
 }

@@ -3,16 +3,9 @@
 }
 
 .top-box {
-  width: 100%;
-}
-
-.test-h {
+  width: 750px;
   height: 440px;
   overflow: hidden;
-}
-
-.si-box {
-  height: 440px;
   position: relative;
   .image {
     width: 750px;
@@ -24,43 +17,52 @@
   .text {
     width: 750px;
     height: 440px;
+    position: absolute;
+    z-index: 9;
   }
   .text2 {
     width: 710px;
     position: absolute;
-    top: 260px;
+    top: 280px;
     left: 20px;
     font-size: 38px;
     color: #fff;
     text-align: left;
     box-sizing: border-box;
+    z-index: 99;
   }
 }
 
 .content {
+  padding-bottom: 20px;
+  .tag {
+    font-size: 30px;
+    color: #888888;
+    padding: 30px 0 10px 40px;
+  }
   .box {
-    width: 730px;
+    width: 710px;
     height: 200px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     border-radius: 5px;
     background-color: white;
     position: relative;
     .title {
-      width: 510px;
+      width: 500px;
       padding: 30px 20px 20px;
       font-size: 34px;
     }
-    .img {
-      display: block;
+    .img-box {
       width: 160px;
       height: 160px;
       position: absolute;
       top: 20px;
       right: 20px;
-      img {
-        margin: 0;
-        padding: 0;
-      }
+    }
+    .img {
+      display: block;
+      width: 100%;
+      height: 100%;
     }
   }
 }
