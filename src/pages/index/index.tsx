@@ -69,6 +69,7 @@ export default class Index extends Component<{}, any> {
   }
 
   // 上拉
+
   scrollToUpper() {
     console.log('上拉')
     // Taro.startPullDownRefresh()
